@@ -1,0 +1,37 @@
+URL http://zero.webappsecurity.com/
+Identified Version 2.2.6
+
+Latest Version 2.4.48
+
+Vulnerability Database Result is based on 05.25.2021 vulnerability database content.
+
+
+Vulnerability Details
+Link identified you are using an out-of-date version of Apache.
+
+For servers, the focus is on stability ? system admin?s usually don't want to update critical server 
+software to the newest version as soon as it is released; updates can often break things and they want to wait until 
+it is more thoroughly tested before updating, for stability reasons.
+Thus, it is common practice to only install security updates immediately, and wait a while before upgrading to a newer release.
+
+Reproduce Step ::
+Step_1 : Run Netsparker...
+Step_2 : Enter Target Url : http://zero.webappsecurity.com/
+Step_3 : Wait few Minutes or hour because this software is slow
+Step_4 : in the software, left hand side show a vulnerability or issue (out-of-date Version (apache))
+latest version is 2.4.48 but in this website running on 2.2.6 version so that is crirtical vulrability.....
+
+
+Impact
+Since this is an old version of the software, it may be vulnerable to attacks.
+
+Mitigation
+Please upgrade your installation of Apache to the latest stable version.
+
+Mitigation References
+Downloading the Apache HTTP Server
+Known Vulnerabilities in this Version
+
+
+External References
+CVE-2010-1452
